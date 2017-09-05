@@ -8,6 +8,7 @@
     "laravel-mix": "^1.4.2"
   },
   "scripts": {
+    "start": "npm run watch",
     "dev"  : "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "NODE_ENV=development webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
     "prod" : "NODE_ENV=production  webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
